@@ -1,3 +1,9 @@
 [default]
 TITLE = "Padaria"
 SECRET_KEY = "aaaa"
+
+EXTENSIONS = [
+  "bakery.ext.appearance",
+  "bakery.blueprints.views",
+  "bakery.blueprints.restapi",
+]
