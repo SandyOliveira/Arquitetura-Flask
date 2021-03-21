@@ -1,0 +1,20 @@
+{% extends "bootstrap/base.html" %} {% block title %}{{config.get('TITLE')}} {%
+endblock %} {% block navbar %}
+<div class="navbar">
+  <div class="navbar-header"></div>
+</div>
+
+{% endblock %} {% block content %}
+<div class="container">
+  <h1>{{ config.get('TITLE')}}</h1>
+
+  <div class="jumbotron">
+    <ul class="list-group">
+      {% for product in products %}
+      <li>{{ product }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,3 @@
+[default]
+TITLE = "Padaria"
+SECRET_KEY = "aaaa"
